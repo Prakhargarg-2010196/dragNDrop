@@ -1,7 +1,6 @@
-const dragContainer = document.querySelector('.drag-container');
 
 let draggableItems = document.querySelectorAll('.drag-item');
-
+// Assigning unique ids to the draggable items list
 for (let i = 0; i < draggableItems.length; i++){
     draggableItems[i].setAttribute('id', i);
 }

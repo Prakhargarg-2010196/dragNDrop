@@ -1,8 +1,4 @@
-/* div {
-    margin: 0.5em 0;
-    padding: 2em;
-} */
-
+/* Two contain the two containers */
 .container{
     display:flex;
     flex-wrap: wrap;
@@ -14,9 +10,11 @@
     padding: 0.5rem;
     flex:1;
     margin:0.5em 0;
-    padding:2em;
 }
-
+.reset{
+    flex:2
+}
+/* To be added when the element is being dragged */
 .dragging {
     cursor:move;
     background-color: pink;
