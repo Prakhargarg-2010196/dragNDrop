@@ -13,3 +13,4 @@ I have created the following functionality right now
 - [ ] better ui 
 
 NOTE: Right now i have statically placed an image and some text nodes but in future dynamicity can be added.
+
