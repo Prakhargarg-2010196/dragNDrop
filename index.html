@@ -10,20 +10,25 @@
 <body>
     <header class="heading"> Drag And Drop List Between Two Divs</header>
     <main class="container">
-        <div class="drag-container">
+        <div class="container--column">
             <h1>Drag from this container</h1>
-            <!-- From here the elements are dragged -->
-            <div class="drag-item" draggable="true"> 
-                <img src="./assets/download.jpeg" alt="" width="100" height="100"/>
+            <div class="drag-container">
+                <!-- From here the elements are dragged -->
+                <div class="drag-item" draggable="true">
+                    <img src="./assets/download.jpeg" alt="" width="100" height="100" />
+                </div>
+                <div class="drag-item" draggable="true">Drag me 2</div>
+                <div class="drag-item" draggable="true">Drag me 3</div>
             </div>
-            <div class="drag-item" draggable="true">Drag me 2</div>
-            <div class="drag-item" draggable="true">Drag me 3</div>
         </div>
-        <div class="drop-container">
+        <div class="container--column">
             <h1>Drop into this container</h1>
-
-            <!-- Here the elements are dropped  -->
+            <div class="drop-container">
+            
+                <!-- Here the elements are dropped  -->
+            </div>
         </div>
+        
     </main>
     <button id="reset" class="reset">Reset positions</button>
     <script type="text/javascript"src="index.js"></script>

@@ -29,11 +29,14 @@ dropContainer.addEventListener('drop', function (e) {
     
     // fetches the id we set during the drag of the draggable elements
     let draggedItemid = e.dataTransfer.getData('text/plain');
-    console.log(draggedItemid);
     // Retrieve the dragged data
     let draggedItem = document.getElementById(draggedItemid);
+    draggedItem.classList.remove('dragging');
+    draggedItem.setAttribute('draggable', false);
     // draggedItem.classList.remove('dragging');
     e.target.appendChild(draggedItem);
+    
 })
+// To reset the postions back to the the first div
 const reset = document.querySelector("#reset");
 reset.addEventListener("click", () => document.location.reload())

@@ -4,13 +4,21 @@
     flex-wrap: wrap;
     gap:2em;
 }
+.container--column{
+    display: flex;
+    flex-direction: column;
+}
 .drag-container,
 .drop-container {
     border: 1px solid black;
     padding: 0.5rem;
-    flex:1;
+    flex:2;
     margin:0.5em 0;
+    width:100%;
+    height:auto;
+    
 }
+/* For reset button */
 .reset{
     flex:2
 }
