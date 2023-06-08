@@ -14,3 +14,5 @@ I have created the following functionality right now
 
 NOTE: Right now i have statically placed an image and some text nodes but in future dynamicity can be added.
 
+## How UI is looking righ now and working of project!!
+![](https://github.com/Prakhargarg-2010196/dragNDrop/blob/prakhar/assets/Recording%202023-06-08%20at%2022.30.42.gif)
